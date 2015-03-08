@@ -1,0 +1,13 @@
+AppBundle\Entity\PageOne:
+    type: entity
+    table: page_one
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
+        description:
+            type: text

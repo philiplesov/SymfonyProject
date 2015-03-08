@@ -1,0 +1,13 @@
+AppBundle\Entity\PageTwo:
+    type: entity
+    table: page_two
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
+        description:
+            type: text
